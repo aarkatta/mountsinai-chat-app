@@ -45,8 +45,8 @@ func GetMessages(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
 
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
-	log.Print("Client ID>>>>>> " + r.Header.Get("client-id"))
-	log.Print("client-secret >>>>>> " + r.Header.Get("client-secret"))
+	log.Print("Client ID : " + r.Header.Get("client-id"))
+	log.Print("client-secret : " + r.Header.Get("client-secret"))
 	sendJSON(w, http.StatusOK, &messages)
 }
 
