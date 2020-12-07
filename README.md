@@ -1,3 +1,7 @@
+Technology Stack:
+Front-end: React](https://reactjs.org/)
+Backend: [Golang](https://golang.org/)
+
 # mountsinai-chat-app
 ## Running the Chat Server
 
