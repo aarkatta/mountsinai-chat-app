@@ -25,3 +25,6 @@ In the `/app` directory, you can run:
 Runs the app in the development mode.  
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+Screenshots:
+(https://github.com/aarkatta/mountsinai-chat-app/blob/main/Chat-From-BM.png)
+
